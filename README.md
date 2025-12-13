@@ -13,7 +13,7 @@ I'm currently working on web projects<br>I'm a coding enthusiast .<br>Interested
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=agnivo988&theme=shadow_blue&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
 
 ## 🏆 GitHub Trophies
-[![trophy](https://github-profile-trophy.vercel.app/?username=agnivo988)](https://github.com/ryo-ma/github-profile-trophy)
+![](https://github-trophies.vercel.app/?username=agnivo988)
 
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=agnivo988&limit=5&theme=dark&combine_all_yearly_contributions=true)
