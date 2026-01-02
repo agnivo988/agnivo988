@@ -14,7 +14,7 @@ I'm currently working on web projects<br>I'm a coding enthusiast .<br>Interested
 ![](https://github-trophies.vercel.app/?username=agnivo988)
 
 ### Top Languages
-[![Top Langs](https://github-readme-stats-nine-cyan-53.vercel.app/api/top-langs/?username=agnivo988)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats-nine-cyan-53.vercel.app/api/top-langs/?username=agnivo988&lang_count=8&size_weight=0.5&count_weight=0.5&layout=pie)](https://github.com/anuraghazra/github-readme-stats)
 
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=agnivo988&limit=5&theme=dark&combine_all_yearly_contributions=true)
