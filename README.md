@@ -1,5 +1,6 @@
 # 💫 About Me:
 I'm currently working on web projects<br>I'm a coding enthusiast .<br>Interested in full stack web dev and data science,ML,AI
+Maintainer of Repo-lyzer(37 stars, 20 contributors, over 100 PR merged)
 
 
 ## 🌐 Socials:
