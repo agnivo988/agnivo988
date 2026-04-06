@@ -1,6 +1,8 @@
 # 💫 About Me:
 I'm currently working on web projects<br>I'm a coding enthusiast .<br>Interested in full stack web dev and data science,ML,AI
 <br>Maintainer of Repo-lyzer(56 stars, 20 contributors, over 130 PR merged)
+<br> Participated in various open source programs like ECWoC26(Achieved rank 11 among PAs), Apertre3.0 etc as a Project Admin and Contributor
+<br> Participated and made impactful projects at various offline Hackathons like Diversion, BrainBattle, Binary, CodeForChange etc .
 
 
 ## 🌐 Socials:
