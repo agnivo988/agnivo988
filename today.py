@@ -89,23 +89,53 @@ def save_cache(cache):
         json.dump(cache, f, indent=2)
 
 
+def fetch_contributor_stats(repo):
+    """Fetch the contributors-stats payload for one repo, or None if it's
+    unavailable (empty repo, still computing after retries, rate limited,
+    or any other non-2xx/empty response)."""
+    url = f"{REST_API}/repos/{USERNAME}/{repo}/stats/contributors"
+    for _ in range(4):
+        try:
+            r = requests.get(url, headers=HEADERS, timeout=15)
+        except requests.RequestException as exc:
+            print(f"  [{repo}] request failed: {exc}")
+            return None
+
+        if r.status_code == 202:
+            # GitHub is still computing stats for this repo — wait and retry
+            time.sleep(3)
+            continue
+        if r.status_code == 204 or not r.text.strip():
+            # Empty repo / genuinely no content to report
+            return None
+        if r.status_code == 403 and "rate limit" in r.text.lower():
+            print(f"  [{repo}] rate limited, skipping for this run")
+            return None
+        if not r.ok:
+            print(f"  [{repo}] unexpected status {r.status_code}, skipping")
+            return None
+
+        try:
+            return r.json()
+        except ValueError:
+            print(f"  [{repo}] non-JSON response, skipping")
+            return None
+
+    # Exhausted retries while GitHub was still computing stats
+    print(f"  [{repo}] stats still computing after retries, skipping")
+    return None
+
+
 def lines_of_code(repo_names, cache):
     """Sum additions/deletions credited to USERNAME across owned repos,
     using the REST contributor-stats endpoint. Results are cached per repo
-    so re-runs don't redo work GitHub has already computed."""
+    so re-runs don't redo work GitHub has already computed, and a repo that
+    can't be read this run falls back to its last cached value."""
     added, deleted = 0, 0
     for repo in repo_names:
-        url = f"{REST_API}/repos/{USERNAME}/{repo}/stats/contributors"
-        data = None
-        for _ in range(3):
-            r = requests.get(url, headers=HEADERS)
-            if r.status_code == 202:  # GitHub is still computing stats
-                time.sleep(3)
-                continue
-            r.raise_for_status()
-            data = r.json()
-            break
-        if not data:
+        data = fetch_contributor_stats(repo)
+
+        if data is None:
             cached = cache.get(repo, {"added": 0, "deleted": 0})
             added += cached["added"]
             deleted += cached["deleted"]
@@ -115,9 +145,9 @@ def lines_of_code(repo_names, cache):
         for contributor in data:
             if contributor.get("author", {}).get("login") != USERNAME:
                 continue
-            for week in contributor["weeks"]:
-                repo_added += week["a"]
-                repo_deleted += week["d"]
+            for week in contributor.get("weeks", []):
+                repo_added += week.get("a", 0)
+                repo_deleted += week.get("d", 0)
         cache[repo] = {"added": repo_added, "deleted": repo_deleted}
         added += repo_added
         deleted += repo_deleted
