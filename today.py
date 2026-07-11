@@ -190,7 +190,7 @@ def main():
         "location": os.environ.get("BIO_LOCATION", "India"),
         "email": os.environ.get("BIO_EMAIL", "agnivamukherjee977@gmail.com"),
         "website": os.environ.get("BIO_WEBSITE", "portfolioagnivaapp.tech"),
-        "linkedin": os.environ.get("BIO_LINKEDIN", "https://www.linkedin.com/in/agniva-mukherjee-a09042267/"),
+        "linkedin": os.environ.get("BIO_LINKEDIN", "agniva-mukherjee-a09042267"),
     }
 
     render_svg("light_mode_template.svg", "light_mode.svg", stats)
