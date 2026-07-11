@@ -143,7 +143,8 @@ def lines_of_code(repo_names, cache):
 
         repo_added = repo_deleted = 0
         for contributor in data:
-            if contributor.get("author", {}).get("login") != USERNAME:
+            author = contributor.get("author") or {}
+            if author.get("login") != USERNAME:
                 continue
             for week in contributor.get("weeks", []):
                 repo_added += week.get("a", 0)
