@@ -1,4 +1,11 @@
 # 💫 About Me:
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg">
+  <source media="(prefers-color-scheme: light)" srcset="light_mode.svg">
+  <img alt="My GitHub stats" src="light_mode.svg">
+</picture>
+
 I'm currently working on web projects<br>I'm a coding enthusiast .<br>Interested in full stack web dev and data science,ML,AI
 <br>Maintainer of Repo-lyzer(56 stars, 20 contributors, over 130 PR merged)
 <br> Participated in various open source programs like ECWoC26(Achieved rank 11 among PAs), Apertre3.0 etc as a Project Admin and Contributor
