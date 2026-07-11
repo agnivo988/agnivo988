@@ -184,13 +184,13 @@ def main():
         # Bio fields — edit these directly, or set them as env vars / repo
         # variables (Settings → Secrets and variables → Actions → Variables)
         # and read them with os.environ.get(...) instead.
-        "editor": os.environ.get("BIO_EDITOR", "VS Code"),
-        "languages": os.environ.get("BIO_LANGUAGES", "Python, JavaScript"),
-        "interests": os.environ.get("BIO_INTERESTS", "open source, robotics"),
-        "location": os.environ.get("BIO_LOCATION", "Earth"),
-        "email": os.environ.get("BIO_EMAIL", "you@example.com"),
-        "website": os.environ.get("BIO_WEBSITE", "example.com"),
-        "linkedin": os.environ.get("BIO_LINKEDIN", "your-linkedin-handle"),
+        "editor": os.environ.get("BIO_EDITOR", "VS Code, Neovim"),
+        "languages": os.environ.get("BIO_LANGUAGES", "JavaScript, C++, GO"),
+        "interests": os.environ.get("BIO_INTERESTS", "open source, web"),
+        "location": os.environ.get("BIO_LOCATION", "India"),
+        "email": os.environ.get("BIO_EMAIL", "agnivamukherjee977@gmail.com"),
+        "website": os.environ.get("BIO_WEBSITE", "portfolioagnivaapp.tech"),
+        "linkedin": os.environ.get("BIO_LINKEDIN", "https://www.linkedin.com/in/agniva-mukherjee-a09042267/"),
     }
 
     render_svg("light_mode_template.svg", "light_mode.svg", stats)
