@@ -1,0 +1,373 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="1050px" height="560px" font-size="16px">
+<style>
+@font-face {
+src: local('Consolas'), local('Consolas Bold');
+font-family: 'ConsolasFallback';
+font-display: swap;
+}
+.key {fill: #b35900;}
+.value {fill: #0550ae;}
+.addColor {fill: #1a7f37;}
+.delColor {fill: #cf222e;}
+.cc {fill: #8c959f;}
+.bg {fill: #6e7681;}
+.eq {fill: #a7b0ba;}
+.c1 {fill: #8957e5;}
+.c2 {fill: #2ea597;}
+.c3 {fill: #d4a72c;}
+.c4 {fill: #e8722c;}
+.c5 {fill: #f0555a;}
+.c6 {fill: #d5539a;}
+text, tspan {white-space: pre;}
+</style>
+<rect width="1050px" height="560px" fill="#ffffff" stroke="#e1e4e8" rx="15"/>
+
+<text x="20" y="40" font-size="14px" xml:space="preserve">
+<tspan x="20" class="bg">.----------</tspan>
+<tspan class="eq">=====</tspan>
+<tspan class="c1">%%%%%%</tspan>
+<tspan class="eq">=</tspan>
+<tspan class="c1">++*+</tspan>
+<tspan class="bg">-:--</tspan>
+<tspan class="eq">=</tspan>
+<tspan class="bg">--</tspan>
+<tspan class="eq">==</tspan>
+<tspan class="c1">++++++++++#%%#+</tspan>
+<tspan class="eq">============</tspan>
+<tspan x="20" dy="16" class="bg">-----------</tspan>
+<tspan class="eq">=====</tspan>
+<tspan class="c1">%%%%##</tspan>
+<tspan class="eq">=</tspan>
+<tspan class="bg">-:.. .........:-</tspan>
+<tspan class="eq">======</tspan>
+<tspan class="c1">++##*+</tspan>
+<tspan class="eq">============</tspan>
+<tspan x="20" dy="16" class="bg">-----------</tspan>
+<tspan class="eq">=====</tspan>
+<tspan class="c1">@%%</tspan>
+<tspan class="eq">=</tspan>
+<tspan class="bg">... .. .. .    ....:-</tspan>
+<tspan class="eq">===</tspan>
+<tspan class="c1">++++%@*</tspan>
+<tspan class="eq">============</tspan>
+<tspan x="20" dy="16" class="bg">-------::::</tspan>
+<tspan class="eq">=====</tspan>
+<tspan class="c1">%%</tspan>
+<tspan class="bg">:.. ... .. .......   ..:</tspan>
+<tspan class="eq">=</tspan>
+<tspan class="c1">*+</tspan>
+<tspan class="eq">=</tspan>
+<tspan class="c1">+##%+</tspan>
+<tspan class="eq">============</tspan>
+<tspan x="20" dy="16" class="bg">---::::::::</tspan>
+<tspan class="eq">=====</tspan>
+<tspan class="c1">%</tspan>
+<tspan class="bg">-.....::  ..::-.</tspan>
+<tspan class="eq">=</tspan>
+<tspan class="bg">-...   ..-</tspan>
+<tspan class="c1">########</tspan>
+<tspan class="eq">========</tspan>
+<tspan class="c1">++</tspan>
+<tspan class="eq">=</tspan>
+<tspan x="20" dy="16" class="bg">--:::::::::</tspan>
+<tspan class="eq">=====</tspan>
+<tspan class="bg">-..   .</tspan>
+<tspan class="eq">=</tspan>
+<tspan class="c2">**##**##****+</tspan>
+<tspan class="bg">-:...  </tspan>
+<tspan class="c2">+******+</tspan>
+<tspan class="eq">=======</tspan>
+<tspan class="c2">++++</tspan>
+<tspan x="20" dy="16" class="bg">:::::::-:::-</tspan>
+<tspan class="eq">===</tspan>
+<tspan class="bg">  ...-</tspan>
+<tspan class="c2">+***#########***+</tspan>
+<tspan class="eq">=</tspan>
+<tspan class="bg">.    :</tspan>
+<tspan class="eq">===========</tspan>
+<tspan class="bg">--</tspan>
+<tspan class="eq">=</tspan>
+<tspan class="c2">++++</tspan>
+<tspan x="20" dy="16" class="bg">:::-:::::::</tspan>
+<tspan class="eq">====</tspan>
+<tspan class="bg">. ..:</tspan>
+<tspan class="c2">+++****####*++</tspan>
+<tspan class="bg">----</tspan>
+<tspan class="eq">==</tspan>
+<tspan class="bg">.   .</tspan>
+<tspan class="eq">========</tspan>
+<tspan class="bg">----</tspan>
+<tspan class="eq">=</tspan>
+<tspan class="c2">+++</tspan>
+<tspan class="eq">==</tspan>
+<tspan x="20" dy="16" class="bg">::::--:::::-</tspan>
+<tspan class="eq">==</tspan>
+<tspan class="bg">-..  </tspan>
+<tspan class="eq">=</tspan>
+<tspan class="bg">-::----</tspan>
+<tspan class="eq">=</tspan>
+<tspan class="c2">++</tspan>
+<tspan class="bg">-:</tspan>
+<tspan class="eq">=</tspan>
+<tspan class="bg">-</tspan>
+<tspan class="c2">+++</tspan>
+<tspan class="eq">==</tspan>
+<tspan class="bg">-..  :-</tspan>
+<tspan class="eq">==========</tspan>
+<tspan class="c2">+####**</tspan>
+<tspan x="20" dy="16" class="bg">:::::::::::-</tspan>
+<tspan class="eq">==</tspan>
+<tspan class="bg">-.  .-</tspan>
+<tspan class="eq">=</tspan>
+<tspan class="bg">-:::-:--</tspan>
+<tspan class="c2">#*</tspan>
+<tspan class="bg">:</tspan>
+<tspan class="c2">++</tspan>
+<tspan class="eq">=</tspan>
+<tspan class="bg">---</tspan>
+<tspan class="c2">+*+</tspan>
+<tspan class="bg">:..:------</tspan>
+<tspan class="eq">====</tspan>
+<tspan class="c2">+##%%#**</tspan>
+<tspan x="20" dy="16" class="bg">:::::-:::::-</tspan>
+<tspan class="eq">===</tspan>
+<tspan class="bg">-..</tspan>
+<tspan class="eq">==</tspan>
+<tspan class="c3">**+++**+*##*+******+</tspan>
+<tspan class="eq">==</tspan>
+<tspan class="bg">-:--:----</tspan>
+<tspan class="eq">=</tspan>
+<tspan class="bg">-</tspan>
+<tspan class="eq">=</tspan>
+<tspan class="c3">+*##%%###</tspan>
+<tspan x="20" dy="16" class="bg">::::::::::::</tspan>
+<tspan class="eq">===</tspan>
+<tspan class="bg">-</tspan>
+<tspan class="eq">=</tspan>
+<tspan class="bg">.</tspan>
+<tspan class="eq">=</tspan>
+<tspan class="c3">+***###***##+*+*#%##**</tspan>
+<tspan class="eq">=</tspan>
+<tspan class="bg">--</tspan>
+<tspan class="c3">*</tspan>
+<tspan class="bg">------</tspan>
+<tspan class="eq">===</tspan>
+<tspan class="c3">+###%%%%%</tspan>
+<tspan x="20" dy="16" class="bg">::::::::::::</tspan>
+<tspan class="eq">===</tspan>
+<tspan class="bg">-</tspan>
+<tspan class="c3">+</tspan>
+<tspan class="eq">=</tspan>
+<tspan class="bg">-</tspan>
+<tspan class="c3">++**#***</tspan>
+<tspan class="bg">:--:::</tspan>
+<tspan class="eq">=</tspan>
+<tspan class="c3">*****+</tspan>
+<tspan class="eq">=</tspan>
+<tspan class="bg">-.:</tspan>
+<tspan class="c3">+</tspan>
+<tspan class="bg">--------</tspan>
+<tspan class="eq">=</tspan>
+<tspan class="c3">*####%##%</tspan>
+<tspan x="20" dy="16" class="bg">::::::::::::-</tspan>
+<tspan class="eq">=</tspan>
+<tspan class="bg">--</tspan>
+<tspan class="c3">*</tspan>
+<tspan class="eq">=</tspan>
+<tspan class="bg">:-</tspan>
+<tspan class="eq">=</tspan>
+<tspan class="c3">++++</tspan>
+<tspan class="eq">==</tspan>
+<tspan class="c3">++*+</tspan>
+<tspan class="eq">===</tspan>
+<tspan class="bg">-:</tspan>
+<tspan class="eq">=</tspan>
+<tspan class="c3">+</tspan>
+<tspan class="eq">=</tspan>
+<tspan class="bg">--:.-</tspan>
+<tspan class="eq">====</tspan>
+<tspan class="bg">----</tspan>
+<tspan class="eq">==</tspan>
+<tspan class="c3">*#####%##</tspan>
+<tspan x="20" dy="16" class="bg">::::::::::::</tspan>
+<tspan class="eq">==</tspan>
+<tspan class="bg">--</tspan>
+<tspan class="c4">*%*</tspan>
+<tspan class="bg">.-</tspan>
+<tspan class="eq">=</tspan>
+<tspan class="c4">++</tspan>
+<tspan class="bg">:</tspan>
+<tspan class="eq">=</tspan>
+<tspan class="c4">++*##*+++</tspan>
+<tspan class="eq">=</tspan>
+<tspan class="c4">++</tspan>
+<tspan class="eq">=</tspan>
+<tspan class="bg">-:..--</tspan>
+<tspan class="eq">==</tspan>
+<tspan class="bg">-----</tspan>
+<tspan class="c4">+++*#####**</tspan>
+<tspan x="20" dy="16" class="bg">::::::::::::-</tspan>
+<tspan class="eq">=</tspan>
+<tspan class="bg">--</tspan>
+<tspan class="c4">*##+</tspan>
+<tspan class="bg">.-</tspan>
+<tspan class="eq">=</tspan>
+<tspan class="c4">++++</tspan>
+<tspan class="eq">===</tspan>
+<tspan class="bg">-</tspan>
+<tspan class="eq">===</tspan>
+<tspan class="c4">+++</tspan>
+<tspan class="bg">-:.. .::::-:--</tspan>
+<tspan class="c4">++</tspan>
+<tspan class="eq">=</tspan>
+<tspan class="c4">++*####**</tspan>
+<tspan x="20" dy="16" class="bg">::::::::::::-</tspan>
+<tspan class="eq">=</tspan>
+<tspan class="bg">--</tspan>
+<tspan class="c4">+##*+</tspan>
+<tspan class="bg">.:--</tspan>
+<tspan class="eq">=</tspan>
+<tspan class="c4">+***+++++</tspan>
+<tspan class="bg">-::....:::::::-</tspan>
+<tspan class="c4">+++++++****++</tspan>
+<tspan x="20" dy="16" class="bg">::::::::::::----</tspan>
+<tspan class="c4">+##*+</tspan>
+<tspan class="bg">-....:.::..............::.:----</tspan>
+<tspan class="eq">==</tspan>
+<tspan class="bg">--</tspan>
+<tspan class="c4">***###*</tspan>
+<tspan x="20" dy="16" class="bg">::::::::::::----</tspan>
+<tspan class="eq">=</tspan>
+<tspan class="c4">#**</tspan>
+<tspan class="bg">:.:-:........ ...........:.::-----::-</tspan>
+<tspan class="c4">******</tspan>
+<tspan x="20" dy="16" class="bg">::::::::::::---:-</tspan>
+<tspan class="c5">**</tspan>
+<tspan class="bg">-:--:--:::::...::::::........::::::----:</tspan>
+<tspan class="c5">+**</tspan>
+<tspan class="bg">-</tspan>
+<tspan x="20" dy="16" class="bg">::::::::::::</tspan>
+<tspan class="eq">======</tspan>
+<tspan class="bg">-------------:::-----:::.:....:::::-::</tspan>
+<tspan class="eq">=</tspan>
+<tspan class="c5">%</tspan>
+<tspan class="bg">-:-::</tspan>
+<tspan x="20" dy="16" class="bg">:::::--</tspan>
+<tspan class="eq">=====</tspan>
+<tspan class="bg">-</tspan>
+<tspan class="eq">=====</tspan>
+<tspan class="bg">----. :</tspan>
+<tspan class="eq">==</tspan>
+<tspan class="bg">--------</tspan>
+<tspan class="eq">=</tspan>
+<tspan class="bg">:.--::-</tspan>
+<tspan class="eq">=</tspan>
+<tspan class="bg">-</tspan>
+<tspan class="eq">===</tspan>
+<tspan class="bg">:.::::-:::-::--</tspan>
+<tspan x="20" dy="16" class="bg">-</tspan>
+<tspan class="eq">=========</tspan>
+<tspan class="bg">--</tspan>
+<tspan class="eq">======</tspan>
+<tspan class="bg">--.  .:.-</tspan>
+<tspan class="c5">*****</tspan>
+<tspan class="bg">:..... .:--</tspan>
+<tspan class="eq">====</tspan>
+<tspan class="bg">-</tspan>
+<tspan class="eq">===</tspan>
+<tspan class="bg">--:::</tspan>
+<tspan class="eq">=</tspan>
+<tspan class="c5">%%#</tspan>
+<tspan class="bg">-:</tspan>
+<tspan class="eq">=</tspan>
+<tspan x="20" dy="16" class="eq">==========</tspan>
+<tspan class="bg">-</tspan>
+<tspan class="eq">=======</tspan>
+<tspan class="bg">:.:-</tspan>
+<tspan class="eq">==</tspan>
+<tspan class="bg">..-</tspan>
+<tspan class="c5">*###</tspan>
+<tspan class="bg">:.....:..:</tspan>
+<tspan class="eq">======</tspan>
+<tspan class="bg">---</tspan>
+<tspan class="eq">=</tspan>
+<tspan class="bg">-</tspan>
+<tspan class="eq">====</tspan>
+<tspan class="c5">*+*%*</tspan>
+<tspan class="bg">--</tspan>
+<tspan x="20" dy="16" class="eq">======</tspan>
+<tspan class="bg">-</tspan>
+<tspan class="eq">===================</tspan>
+<tspan class="bg">::</tspan>
+<tspan class="c6">#*</tspan>
+<tspan class="bg">.::-</tspan>
+<tspan class="eq">==============</tspan>
+<tspan class="bg">--</tspan>
+<tspan class="eq">======</tspan>
+<tspan class="bg">---</tspan>
+<tspan class="c6">*%%%</tspan>
+<tspan x="20" dy="16" class="bg">.</tspan>
+<tspan class="eq">====================</tspan>
+<tspan class="c6">++</tspan>
+<tspan class="eq">====</tspan>
+<tspan class="bg">-:--</tspan>
+<tspan class="eq">=================</tspan>
+<tspan class="bg">-</tspan>
+<tspan class="eq">======</tspan>
+<tspan class="bg">--</tspan>
+<tspan class="eq">==</tspan>
+<tspan class="bg">--</tspan>
+<tspan class="c6">#%</tspan>
+<tspan x="20" dy="16" class="bg">  :</tspan>
+<tspan class="eq">=</tspan>
+<tspan class="bg">-</tspan>
+<tspan class="eq">=====================</tspan>
+<tspan class="c6">+</tspan>
+<tspan class="eq">=</tspan>
+<tspan class="bg">--</tspan>
+<tspan class="eq">===================</tspan>
+<tspan class="bg">-</tspan>
+<tspan class="eq">==</tspan>
+<tspan class="bg">-</tspan>
+<tspan class="eq">=</tspan>
+<tspan class="bg">-:</tspan>
+<tspan class="eq">==</tspan>
+<tspan class="bg">---:</tspan>
+<tspan class="c6">+</tspan>
+<tspan x="20" dy="16" class="bg">   .-</tspan>
+<tspan class="eq">===========</tspan>
+<tspan class="c6">+</tspan>
+<tspan class="eq">==</tspan>
+<tspan class="c6">+</tspan>
+<tspan class="eq">=</tspan>
+<tspan class="c6">+</tspan>
+<tspan class="eq">=</tspan>
+<tspan class="c6">++++</tspan>
+<tspan class="eq">==</tspan>
+<tspan class="c6">++</tspan>
+<tspan class="eq">====================</tspan>
+<tspan class="bg">:</tspan>
+<tspan class="eq">==</tspan>
+<tspan class="bg">:</tspan>
+<tspan class="eq">====</tspan>
+<tspan class="bg">-..</tspan>
+</text>
+
+<text x="650" y="30" fill="#24292e">
+<tspan x="650" y="30">agnivo988@github</tspan> -——————————————————————-—-
+<tspan x="650" y="50" class="cc">. </tspan><tspan class="key">Editor</tspan>:<tspan class="cc"> .................... </tspan><tspan class="value">VS Code</tspan>
+<tspan x="650" y="70" class="cc">. </tspan><tspan class="key">Languages</tspan>:<tspan class="cc"> ................. </tspan><tspan class="value">Python, JavaScript</tspan>
+<tspan x="650" y="90" class="cc">. </tspan><tspan class="key">Interests</tspan>:<tspan class="cc"> ................. </tspan><tspan class="value">open source, robotics</tspan>
+<tspan x="650" y="110" class="cc">. </tspan><tspan class="key">Location</tspan>:<tspan class="cc"> .................. </tspan><tspan class="value">Earth</tspan>
+<tspan x="650" y="150">- Contact</tspan> -——————————————————————-—-
+<tspan x="650" y="170" class="cc">. </tspan><tspan class="key">Email</tspan>:<tspan class="cc"> ..................... </tspan><tspan class="value">you@example.com</tspan>
+<tspan x="650" y="190" class="cc">. </tspan><tspan class="key">Website</tspan>:<tspan class="cc"> ................... </tspan><tspan class="value">example.com</tspan>
+<tspan x="650" y="210" class="cc">. </tspan><tspan class="key">LinkedIn</tspan>:<tspan class="cc"> .................. </tspan><tspan class="value">your-linkedin-handle</tspan>
+<tspan x="650" y="250">- GitHub Stats</tspan> -——————————————————————-—-
+<tspan x="650" y="270" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc"> .... </tspan><tspan class="value">27</tspan> {<tspan class="key">Contributed</tspan>: <tspan class="value">9</tspan>} | <tspan class="key">Stars</tspan>:<tspan class="cc"> ........... </tspan><tspan class="value">85</tspan>
+<tspan x="650" y="290" class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> .................. </tspan><tspan class="value">488</tspan> | <tspan class="key">Followers</tspan>:<tspan class="cc"> ....... </tspan><tspan class="value">10</tspan>
+<tspan x="650" y="310" class="cc">. </tspan><tspan class="key">Lines of Code</tspan>:<tspan class="cc">. </tspan><tspan class="value">373,692</tspan> ( <tspan class="addColor">385,746</tspan><tspan class="addColor">++</tspan>, <tspan class="delColor">12,054</tspan><tspan class="delColor">--</tspan> )
+<tspan x="650" y="340" class="cc">. </tspan><tspan class="key">Updated</tspan>:<tspan class="cc"> .................... </tspan><tspan class="value">2026-07-11</tspan>
+</text>
+</svg>
