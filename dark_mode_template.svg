@@ -31,15 +31,13 @@ text, tspan {white-space: pre;}
 <tspan class="c1">++*+</tspan>
 <tspan class="bg">-:--</tspan>
 <tspan class="eq">=</tspan>
-<tspan class="bg">--</tspan>
-<tspan class="eq">==</tspan>
 <tspan class="c1">++++++++++#%%#+</tspan>
 <tspan class="eq">============</tspan>
 <tspan x="20" dy="16" class="bg">-----------</tspan>
 <tspan class="eq">=====</tspan>
 <tspan class="c1">%%%%##</tspan>
 <tspan class="eq">=</tspan>
-<tspan class="bg">-:.. .........:-</tspan>
+<tspan class="bg">-:.. .......:-</tspan>
 <tspan class="eq">======</tspan>
 <tspan class="c1">++##*+</tspan>
 <tspan class="eq">============</tspan>
@@ -89,7 +87,7 @@ text, tspan {white-space: pre;}
 <tspan class="bg">--</tspan>
 <tspan class="eq">=</tspan>
 <tspan class="c2">++++</tspan>
-<tspan x="20" dy="16" class="bg">:::-:::::::</tspan>
+<tspan x="20" dy="16" class="bg">:::-::::::</tspan>
 <tspan class="eq">====</tspan>
 <tspan class="bg">. ..:</tspan>
 <tspan class="c2">+++****####*++</tspan>
@@ -101,7 +99,7 @@ text, tspan {white-space: pre;}
 <tspan class="eq">=</tspan>
 <tspan class="c2">+++</tspan>
 <tspan class="eq">==</tspan>
-<tspan x="20" dy="16" class="bg">::::--:::::-</tspan>
+<tspan x="20" dy="16" class="bg">::::-:::-</tspan>
 <tspan class="eq">==</tspan>
 <tspan class="bg">-..  </tspan>
 <tspan class="eq">=</tspan>
@@ -116,7 +114,7 @@ text, tspan {white-space: pre;}
 <tspan class="bg">-..  :-</tspan>
 <tspan class="eq">==========</tspan>
 <tspan class="c2">+####**</tspan>
-<tspan x="20" dy="16" class="bg">:::::::::::-</tspan>
+<tspan x="20" dy="16" class="bg">::::::::-</tspan>
 <tspan class="eq">==</tspan>
 <tspan class="bg">-.  .-</tspan>
 <tspan class="eq">=</tspan>
@@ -130,7 +128,7 @@ text, tspan {white-space: pre;}
 <tspan class="bg">:..:------</tspan>
 <tspan class="eq">====</tspan>
 <tspan class="c2">+##%%#**</tspan>
-<tspan x="20" dy="16" class="bg">:::::-:::::-</tspan>
+<tspan x="20" dy="16" class="bg">::::-::::-</tspan>
 <tspan class="eq">===</tspan>
 <tspan class="bg">-..</tspan>
 <tspan class="eq">==</tspan>
@@ -141,7 +139,7 @@ text, tspan {white-space: pre;}
 <tspan class="bg">-</tspan>
 <tspan class="eq">=</tspan>
 <tspan class="c3">+*##%%###</tspan>
-<tspan x="20" dy="16" class="bg">::::::::::::</tspan>
+<tspan x="20" dy="16" class="bg">::::::::</tspan>
 <tspan class="eq">===</tspan>
 <tspan class="bg">-</tspan>
 <tspan class="eq">=</tspan>
@@ -154,7 +152,7 @@ text, tspan {white-space: pre;}
 <tspan class="bg">------</tspan>
 <tspan class="eq">===</tspan>
 <tspan class="c3">+###%%%%%</tspan>
-<tspan x="20" dy="16" class="bg">::::::::::::</tspan>
+<tspan x="20" dy="16" class="bg">:::::::</tspan>
 <tspan class="eq">===</tspan>
 <tspan class="bg">-</tspan>
 <tspan class="c3">+</tspan>
@@ -170,7 +168,7 @@ text, tspan {white-space: pre;}
 <tspan class="bg">--------</tspan>
 <tspan class="eq">=</tspan>
 <tspan class="c3">*####%##%</tspan>
-<tspan x="20" dy="16" class="bg">::::::::::::-</tspan>
+<tspan x="20" dy="16" class="bg">::::::-</tspan>
 <tspan class="eq">=</tspan>
 <tspan class="bg">--</tspan>
 <tspan class="c3">*</tspan>
@@ -190,7 +188,7 @@ text, tspan {white-space: pre;}
 <tspan class="bg">----</tspan>
 <tspan class="eq">==</tspan>
 <tspan class="c3">*#####%##</tspan>
-<tspan x="20" dy="16" class="bg">::::::::::::</tspan>
+<tspan x="20" dy="16" class="bg">::::::::</tspan>
 <tspan class="eq">==</tspan>
 <tspan class="bg">--</tspan>
 <tspan class="c4">*%*</tspan>
@@ -207,7 +205,7 @@ text, tspan {white-space: pre;}
 <tspan class="eq">==</tspan>
 <tspan class="bg">-----</tspan>
 <tspan class="c4">+++*#####**</tspan>
-<tspan x="20" dy="16" class="bg">::::::::::::-</tspan>
+<tspan x="20" dy="16" class="bg">:::::::-</tspan>
 <tspan class="eq">=</tspan>
 <tspan class="bg">--</tspan>
 <tspan class="c4">*##+</tspan>
@@ -222,7 +220,7 @@ text, tspan {white-space: pre;}
 <tspan class="c4">++</tspan>
 <tspan class="eq">=</tspan>
 <tspan class="c4">++*####**</tspan>
-<tspan x="20" dy="16" class="bg">::::::::::::-</tspan>
+<tspan x="20" dy="16" class="bg">:::::::-</tspan>
 <tspan class="eq">=</tspan>
 <tspan class="bg">--</tspan>
 <tspan class="c4">+##*+</tspan>
@@ -231,7 +229,7 @@ text, tspan {white-space: pre;}
 <tspan class="c4">+***+++++</tspan>
 <tspan class="bg">-::....:::::::-</tspan>
 <tspan class="c4">+++++++****++</tspan>
-<tspan x="20" dy="16" class="bg">::::::::::::----</tspan>
+<tspan x="20" dy="16" class="bg">:::::----</tspan>
 <tspan class="c4">+##*+</tspan>
 <tspan class="bg">-....:.::..............::.:----</tspan>
 <tspan class="eq">==</tspan>
